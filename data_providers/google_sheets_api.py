@@ -22,7 +22,7 @@ class Workbook(object):
     """
 
     __SCOPES = 'https://www.googleapis.com/auth/spreadsheets'
-    __CONFIG_FILE = os.path.dirname(os.getcwd()) + '\\python_bdd_api\\config\\'
+    __CONFIG_FILE = os.path.dirname(os.getcwd()) + '\\python_bdd_api_accelerator\\config\\'
     __GOOGLE_CONFIG_FILE = os.path.abspath(os.path.join(os.path.dirname(__CONFIG_FILE), 'google_config.json'))
     __SA_GOOGLE_CONFIG_FILE = os.path.abspath(os.path.join(os.path.dirname(__CONFIG_FILE), 'google_config.json'))
     __APPLICATION_NAME = 'Reusable'

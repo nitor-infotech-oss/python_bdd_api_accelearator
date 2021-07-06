@@ -17,7 +17,7 @@ class db_helpers(object):
         establish the connection to DataBase using the config file and
         all the functions related to database
     """
-    __DB_CONFIG_FILE = os.path.dirname(os.getcwd()) + '\\python_bdd_api\\config\\db_config.json'
+    __DB_CONFIG_FILE = os.path.dirname(os.getcwd()) + '\\python_bdd_api_accelerator\\config\\db_config.json'
 
     def __init__(self):
         logger.info("DB Config File:" + self.__DB_CONFIG_FILE)

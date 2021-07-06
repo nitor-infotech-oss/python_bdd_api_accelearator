@@ -79,6 +79,8 @@
     - Visit the url ```https://console.cloud.google.com/iam-admin/serviceaccounts``` and click on the dots in actions and click on edit.
     - Under the Keys tab, click on `Add keys` and than get all the details from the page and replace the same in file `google_config.json`.<br/>  
 - Download dependencies by using the following command:<br />```pip install -r requirements.txt```
+- Copy the file ```sheets.googleapis.com-python-quickstart.json``` file from project root folder to ```C://users/{username}/.credentials``` folder. 
+- Extract the ```allure.zip``` to your preferred location and set the path of ```allure\bin\``` to your System Environment.
 
 ### Config Parameters
 - The base url of API is configurable and can be configured in `api_helper.py` in `Helper` folder.
@@ -132,7 +134,7 @@
 
   - ### Open Allure HTML report
     - After execution, To open the reports run the following command in terminal:
-      -  ```allure open allure/reports``` 
+      -  ```allure open allure_reports/reports``` 
     - We can also open it by navigating to `src/allure/reports` and open `index.html`.
 
 ### Test Logs

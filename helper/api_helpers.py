@@ -15,7 +15,7 @@ class woo_request_helper(object):
     This class implements the functionality to provide the connection to REST API
     by using REST API KEY and SECRET
     """
-    __API_CONFIG_FILE = os.path.dirname(os.getcwd()) + '\\python_bdd_api\\config\\api_config.json'
+    __API_CONFIG_FILE = os.path.dirname(os.getcwd()) + '\\python_bdd_api_accelerator\\config\\api_config.json'
 
     def __init__(self):
         logs = logging.getLogger("root")
